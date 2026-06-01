@@ -45,7 +45,7 @@ export default function Home() {
             id="services"
         >
           <div className="text-center mb-16">
-            <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Expertises Stratégiques</h2>
+            <h2 className="font-headline-lg text-headline-lg text-gradient-gold mb-4">Expertises Stratégiques</h2>
             <div className="w-20 h-1 bg-secondary-container mx-auto rounded-full"></div>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -91,7 +91,7 @@ export default function Home() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-secondary-container/20 blur-[100px] rounded-full"></div>
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/10 blur-[100px] rounded-full"></div>
             <div className="relative z-10">
-              <h2 className="font-headline-xl text-headline-xl text-on-primary mb-6 max-w-3xl mx-auto">Prêt à élever vos standards numériques ?</h2>
+                <h2 className="font-headline-xl text-headline-xl text-gradient-gold mb-6 max-w-3xl mx-auto">Prêt à élever vos standards numériques ?</h2>
               <p className="text-primary-fixed font-body-lg text-body-lg mb-12 max-w-xl mx-auto opacity-90">Transformons ensemble vos défis complexes en interfaces élégantes et hautement performantes.</p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <button className="bg-secondary-container text-on-secondary-container px-10 py-5 rounded-full font-button text-button hover:scale-105 transition-transform shadow-xl shadow-black/20">Démarrer un projet</button>

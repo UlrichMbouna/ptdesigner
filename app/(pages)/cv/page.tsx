@@ -204,7 +204,7 @@ export default function CVPage() {
               </motion.span>
               <h1 className="font-headline-xl text-headline-xl text-on-surface mb-8 leading-tight">
                 Concevoir des écosystèmes numériques avec une{" "}
-                <span className="text-primary">précision premium.</span>
+                <span className="text-gradient-gold">précision premium.</span>
               </h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-xl">
                 Expert en design stratégique, je transforme des visions complexes en interfaces
@@ -255,7 +255,7 @@ export default function CVPage() {
                 transition={{ duration: 0.5 }}
             >
               <div className="max-w-2xl">
-                <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">
+                <h2 className="font-headline-lg text-headline-lg text-gradient-gold mb-4">
                   Expériences Professionnelles
                 </h2>
                 <div className="h-1.5 w-24 bg-secondary-container rounded-full" />
@@ -295,7 +295,7 @@ export default function CVPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Leadership card */}
               <TiltCard className="md:col-span-1 bg-surface p-8 rounded-[32px] shadow-sm">
-                <h3 className="font-headline-md text-headline-md text-on-surface mb-8">
+                <h3 className="font-headline-md text-headline-md text-gradient-gold mb-8">
                   Leadership &amp; DNA
                 </h3>
                 <div className="space-y-8">
@@ -311,7 +311,7 @@ export default function CVPage() {
                 <span className="material-symbols-outlined text-4xl mb-4" data-weight="fill">
                   diamond
                 </span>
-                  <h4 className="font-headline-md text-headline-md mb-4">Compétences Clés</h4>
+                  <h4 className="font-headline-md text-headline-md text-gradient-gold mb-4">Compétences Clés</h4>
                   <ul className="space-y-3 font-body-md text-body-md opacity-90">
                     {[
                       "Architecture de l'Information",
@@ -444,7 +444,7 @@ export default function CVPage() {
                 transition={{ type: "spring", stiffness: 200, damping: 25 }}
             >
               <div className="absolute inset-0 bg-primary/10 blur-[120px]" />
-              <h2 className="font-headline-lg text-headline-lg text-inverse-on-surface mb-6 relative z-10">
+              <h2 className="font-headline-lg text-headline-lg text-gradient-gold mb-6 relative z-10">
                 Prêt à élever votre prochain projet ?
               </h2>
               <p className="font-body-lg text-body-lg text-inverse-on-surface/70 mb-10 max-w-2xl mx-auto relative z-10">

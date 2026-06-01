@@ -65,7 +65,7 @@ export default function PortfolioPage() {
       <section className="relative px-margin-desktop max-w-container-max mx-auto mb-20 mt-8">
         <div className="absolute inset-0 mesh-gradient-blue-gold -z-10 rounded-3xl"></div>
         <div className="py-16 text-center">
-          <h1 className="font-headline-xl text-headline-xl mb-6 text-on-surface">Travaux sélectionnés et Études de Cas.</h1>
+          <h1 className="font-headline-xl text-headline-xl mb-6 text-gradient-gold">Travaux sélectionnés et Études de Cas.</h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Découvrez une collection de projets où l'innovation technologique rencontre une esthétique de luxe discrète pour créer des expériences numériques mémorables.</p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function PortfolioPage() {
       <section className="bg-surface-container py-24 mb-32">
         <div className="px-margin-desktop max-w-container-max mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-headline-lg text-headline-lg text-on-surface">Le Processus de Design</h2>
+            <h2 className="font-headline-lg text-headline-lg text-gradient-gold">Le Processus de Design</h2>
             <p className="font-body-md text-body-md text-on-surface-variant mt-4">Une méthodologie rigoureuse pour des résultats d'exception.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 relative">

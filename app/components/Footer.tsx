@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="bg-surface-container-low border-t border-outline-variant/30">
             <div className="flex flex-col md:flex-row justify-between items-center w-full px-margin-desktop py-12 max-w-container-max mx-auto">
                 <div className="mb-8 md:mb-0">
-                    <div className="text-headline-sm font-headline-sm text-on-surface mb-2">Design Excellence</div>
+                    <div className="text-headline-sm font-headline-sm text-gradient-gold mb-2">Design Excellence</div>
                     <p className="font-body-sm text-body-sm text-on-surface-variant">© 2024 Design Excellence. Tous droits réservés.</p>
                 </div>
                 <div className="flex flex-col md:flex-row gap-8 items-center">
