@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="fr"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
-    >
+      <html
+          lang="fr"
+          className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
+      >
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -132,10 +132,10 @@ export default function RootLayout({
 .text-gradient-gold { background: linear-gradient(135deg, #735c00 0%, #fed01b 50%, #735c00 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }` }} />
       </head>
       <body className="min-h-full flex flex-col">
-        <Navbar />
-        <div className="flex-1">{children}</div>
-        <Footer />
+      <Navbar />
+      <div className="flex-1">{children}</div>
+      <Footer />
       </body>
-    </html>
+      </html>
   );
 }
